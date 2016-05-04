@@ -15,6 +15,12 @@
 		0AF277401CD35A56000F5261 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AF2773E1CD35A56000F5261 /* LaunchScreen.storyboard */; };
 		0AF2774B1CD35A56000F5261 /* AnimationSetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2774A1CD35A56000F5261 /* AnimationSetTests.m */; };
 		0AF277561CD35A56000F5261 /* AnimationSetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF277551CD35A56000F5261 /* AnimationSetUITests.m */; };
+		0AF277651CD35C2A000F5261 /* LJZZanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF277641CD35C2A000F5261 /* LJZZanViewController.m */; };
+		0AF2776C1CD35DBE000F5261 /* btn_like.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AF277681CD35DBE000F5261 /* btn_like.png */; };
+		0AF2776D1CD35DBE000F5261 /* btn_like@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AF277691CD35DBE000F5261 /* btn_like@2x.png */; };
+		0AF2776E1CD35DBE000F5261 /* btn_unlike.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AF2776A1CD35DBE000F5261 /* btn_unlike.png */; };
+		0AF2776F1CD35DBE000F5261 /* btn_unlike@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AF2776B1CD35DBE000F5261 /* btn_unlike@2x.png */; };
+		0AF277731CD35EE8000F5261 /* LJZZanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AF277721CD35EE8000F5261 /* LJZZanViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,15 @@
 		0AF277511CD35A56000F5261 /* AnimationSetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationSetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF277551CD35A56000F5261 /* AnimationSetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationSetUITests.m; sourceTree = "<group>"; };
 		0AF277571CD35A56000F5261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AF277631CD35C2A000F5261 /* LJZZanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJZZanViewController.h; sourceTree = "<group>"; };
+		0AF277641CD35C2A000F5261 /* LJZZanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJZZanViewController.m; sourceTree = "<group>"; };
+		0AF277681CD35DBE000F5261 /* btn_like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_like.png; sourceTree = "<group>"; };
+		0AF277691CD35DBE000F5261 /* btn_like@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_like@2x.png"; sourceTree = "<group>"; };
+		0AF2776A1CD35DBE000F5261 /* btn_unlike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_unlike.png; sourceTree = "<group>"; };
+		0AF2776B1CD35DBE000F5261 /* btn_unlike@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_unlike@2x.png"; sourceTree = "<group>"; };
+		0AF277701CD35DDB000F5261 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		0AF277721CD35EE8000F5261 /* LJZZanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LJZZanViewController.xib; sourceTree = "<group>"; };
+		0AF277751CD36285000F5261 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +116,7 @@
 		0AF2772F1CD35A56000F5261 /* AnimationSet */ = {
 			isa = PBXGroup;
 			children = (
+				0AF277671CD35DBE000F5261 /* Resource */,
 				0AF277331CD35A56000F5261 /* AppDelegate.h */,
 				0AF277341CD35A56000F5261 /* AppDelegate.m */,
 				0AF277361CD35A56000F5261 /* ViewController.h */,
@@ -110,6 +126,7 @@
 				0AF2773E1CD35A56000F5261 /* LaunchScreen.storyboard */,
 				0AF277411CD35A56000F5261 /* Info.plist */,
 				0AF277301CD35A56000F5261 /* Supporting Files */,
+				0AF277661CD35C2F000F5261 /* AnimationControllers */,
 			);
 			path = AnimationSet;
 			sourceTree = "<group>";
@@ -117,7 +134,9 @@
 		0AF277301CD35A56000F5261 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0AF277701CD35DDB000F5261 /* Define.h */,
 				0AF277311CD35A56000F5261 /* main.m */,
+				0AF277751CD36285000F5261 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +157,27 @@
 				0AF277571CD35A56000F5261 /* Info.plist */,
 			);
 			path = AnimationSetUITests;
+			sourceTree = "<group>";
+		};
+		0AF277661CD35C2F000F5261 /* AnimationControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0AF277631CD35C2A000F5261 /* LJZZanViewController.h */,
+				0AF277641CD35C2A000F5261 /* LJZZanViewController.m */,
+				0AF277721CD35EE8000F5261 /* LJZZanViewController.xib */,
+			);
+			name = AnimationControllers;
+			sourceTree = "<group>";
+		};
+		0AF277671CD35DBE000F5261 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0AF277681CD35DBE000F5261 /* btn_like.png */,
+				0AF277691CD35DBE000F5261 /* btn_like@2x.png */,
+				0AF2776A1CD35DBE000F5261 /* btn_unlike.png */,
+				0AF2776B1CD35DBE000F5261 /* btn_unlike@2x.png */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +242,7 @@
 		0AF277251CD35A56000F5261 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LJZ;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = likeme;
 				TargetAttributes = {
@@ -243,9 +284,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AF2776F1CD35DBE000F5261 /* btn_unlike@2x.png in Resources */,
+				0AF277731CD35EE8000F5261 /* LJZZanViewController.xib in Resources */,
 				0AF277401CD35A56000F5261 /* LaunchScreen.storyboard in Resources */,
 				0AF2773D1CD35A56000F5261 /* Assets.xcassets in Resources */,
+				0AF2776E1CD35DBE000F5261 /* btn_unlike.png in Resources */,
 				0AF2773B1CD35A56000F5261 /* Main.storyboard in Resources */,
+				0AF2776D1CD35DBE000F5261 /* btn_like@2x.png in Resources */,
+				0AF2776C1CD35DBE000F5261 /* btn_like.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AF277381CD35A56000F5261 /* ViewController.m in Sources */,
+				0AF277651CD35C2A000F5261 /* LJZZanViewController.m in Sources */,
 				0AF277351CD35A56000F5261 /* AppDelegate.m in Sources */,
 				0AF277321CD35A56000F5261 /* main.m in Sources */,
 			);
@@ -411,6 +458,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AnimationSet/PrefixHeader.pch;
 				INFOPLIST_FILE = AnimationSet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.likeme.AnimationSet;
@@ -422,6 +471,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AnimationSet/PrefixHeader.pch;
 				INFOPLIST_FILE = AnimationSet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.likeme.AnimationSet;
