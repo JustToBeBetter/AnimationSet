@@ -116,7 +116,6 @@
 		0AF2772F1CD35A56000F5261 /* AnimationSet */ = {
 			isa = PBXGroup;
 			children = (
-				0AF277671CD35DBE000F5261 /* Resource */,
 				0AF277331CD35A56000F5261 /* AppDelegate.h */,
 				0AF277341CD35A56000F5261 /* AppDelegate.m */,
 				0AF277361CD35A56000F5261 /* ViewController.h */,
@@ -125,6 +124,9 @@
 				0AF2773C1CD35A56000F5261 /* Assets.xcassets */,
 				0AF2773E1CD35A56000F5261 /* LaunchScreen.storyboard */,
 				0AF277411CD35A56000F5261 /* Info.plist */,
+				E845C2201CD99ACB003C5336 /* Models */,
+				E845C21F1CD99ABB003C5336 /* Views */,
+				0AF277671CD35DBE000F5261 /* Resource */,
 				0AF277301CD35A56000F5261 /* Supporting Files */,
 				0AF277661CD35C2F000F5261 /* AnimationControllers */,
 			);
@@ -178,6 +180,20 @@
 				0AF2776B1CD35DBE000F5261 /* btn_unlike@2x.png */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		E845C21F1CD99ABB003C5336 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		E845C2201CD99ACB003C5336 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -547,6 +563,7 @@
 				0AF2775C1CD35A56000F5261 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AF2775D1CD35A56000F5261 /* Build configuration list for PBXNativeTarget "AnimationSetTests" */ = {
 			isa = XCConfigurationList;
@@ -555,6 +572,7 @@
 				0AF2775F1CD35A56000F5261 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AF277601CD35A56000F5261 /* Build configuration list for PBXNativeTarget "AnimationSetUITests" */ = {
 			isa = XCConfigurationList;
@@ -563,6 +581,7 @@
 				0AF277621CD35A56000F5261 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
